@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_view_vehicles"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View Vehicles" />
+        <item
+            android:id="@+id/nav_my_trips"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Trips" />
+        <item
+            android:id="@+id/nav_my_progress"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Progress" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_my_profile"
+                android:icon="@drawable/ic_menu_share"
+                android:title="My Profile" />
+        </menu>
+    </item>
+
+</menu>
